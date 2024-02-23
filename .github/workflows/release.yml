@@ -3,7 +3,7 @@ name: Android CI
 on:
   release:
     types: [published]
-
+  workflow_dispatch: # 这个是手动触发的触发器
 jobs:
   build:
 
